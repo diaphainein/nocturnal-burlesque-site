@@ -194,7 +194,8 @@ a:focus, a:hover {
   font-size: 100%;
 }
 
-.btn-tertiary:hover {
+.btn-tertiary:hover,
+.btn-tertiary:focus {
   background-color: #8572a7;
   color: #c1b7d2;
   border: 1px solid #8572a7;
@@ -507,6 +508,12 @@ h3.secondary-title {
   text-align: left;
 }
 
+.performer-section .button-container {
+  margin: 3rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 992px) { 
   .performer-section .col-lg-6:last-of-type {
     text-align: left;
@@ -554,11 +561,6 @@ h3.secondary-title {
   margin: 3rem 0;
 }
 
-/* @media (min-width: 992px) {
-
-} */
-
-
 /* VOLUNTEER INFO SECTION */
 
 .volunteer-bg-img {
@@ -596,6 +598,51 @@ h3.secondary-title {
   margin: 3rem 0;
 }
 
+/* CONTACT AND SOCIAL SECTION */
+
+.contact-bg-img {
+  background: url("../img/ouija.jpg");
+  position: relative;
+}
+
+.contact-section .col-lg-6:first-of-type {
+  min-height: 60rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 3.5rem 2rem;
+  text-align: center;
+}
+
+.contact-section h1 {
+  margin-bottom: 1rem;
+}
+
+.contact-section h2 {
+  margin-bottom: 3rem;
+}
+
+.contact-section p {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.contact-section .social {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section .btn {
+  margin-bottom: 1rem;
+  width: 15rem;
+}
+
+
 /* ABOUT US SECTION */
 
 .about-section .col-lg-8 {
@@ -614,51 +661,7 @@ h3.secondary-title {
   margin: 2rem 0;
 }
 
-/* CONTACT AND SOCIAL SECTION */
-
-.contact-section {
-  padding: 5rem 0 0;
-}
-
-.contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
-}
-
-.contact-section .card h4 {
-  font-size: 0.8rem;
-  font-family: 'Varela Round';
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-}
-
-.contact-section .card hr {
-  border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
-}
-
-.contact-section .social {
-  margin-top: 5rem;
-}
-
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.contact-section .social a:active {
-  color: #fff;
-}
+/* FOOTER */
 
 footer {
   padding: 5rem 0;

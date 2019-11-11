@@ -645,7 +645,7 @@ h3.secondary-title {
 
 /* ABOUT US SECTION */
 
-.about-section .col-lg-8 {
+.about-section .col-md-12 {
   min-height: 50rem;
   height: 100%;
   display: flex;

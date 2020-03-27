@@ -443,7 +443,7 @@ h3.secondary-title {
   margin: 0;
 }
 
-/* APPLY SECTION */
+/* COVID-19 SECTION (formerly known as the apply section) */
 
 .apply-section .col-lg-8 {
   min-height: 50rem;
@@ -462,6 +462,12 @@ h3.secondary-title {
 .apply-bg-img {
   background: url("../img/goth-milkbath.jpg");
   background-position: left center !important;
+}
+
+.signatures p {
+  display: block;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
 }
 
 /* PERFORMER INFO SECTION */

@@ -673,12 +673,11 @@ h3.secondary-title {
 }
 
 .producer-img {
-  margin-bottom: 2rem;
+  min-height: 50rem;
 }
 
 .vivienne-bg-img {
   background-image: url(../img/vivienne.jpeg);
-  height: 50rem;
 }
 
 .chordella-bg-img {

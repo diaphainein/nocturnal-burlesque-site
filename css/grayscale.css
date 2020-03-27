@@ -667,6 +667,28 @@ h3.secondary-title {
   margin: 2rem 0;
 }
 
+.about-section h4 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+}
+
+.producer-img {
+  margin-bottom: 2rem;
+}
+
+.vivienne-bg-img {
+  background-image: url(../img/vivienne.jpeg);
+  height: 50rem;
+}
+
+.chordella-bg-img {
+  background-image: url(../img/chordella.jpg);
+}
+
+.squirrel-bg-img {
+  background-image: url(../img/squirrel.png);
+}
+
 /* FOOTER */
 
 footer {
